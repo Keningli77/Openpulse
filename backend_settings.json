@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0.0",
+  "gemini": {
+    "model": "gemini-3.8-flash"
+  }
+}

@@ -1,0 +1,9 @@
+data/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.DS_Store
+*.zip

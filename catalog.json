@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.1.0",
+  "drugs": {
+    "empagliflozin": {
+      "display_name": "Empagliflozin",
+      "label_setid": "faf3dd6a-9cd0-39c2-0d2e-232cb3f67565",
+      "reference_product": "JARDIANCE",
+      "reference_ingredients": [
+        "empagliflozin"
+      ],
+      "mapping_evidence": "The JARDIANCE DailyMed label identifies empagliflozin as its active ingredient. This was reviewed from user-provided label text; the workflow must recheck the downloaded SPL.",
+      "mapping_source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565",
+      "mapping_review_status": "reviewed_from_user_provided_label",
+      "mapping_reference_version": "31",
+      "mapping_reference_effective_time": "20260130",
+      "faers_scope": "Standardized generic-name phrase matching; may include single-ingredient and combination products. The JARDIANCE label is background evidence, not a complete product-name dictionary."
+    }
+  },
+  "events": {
+    "dka": {
+      "display_name": "DKA (diabetic ketoacidosis)",
+      "faers_term": "Diabetic ketoacidosis",
+      "label_keyword": "ketoacidosis",
+      "mapping_status": "Manually specified single FAERS event term; not a complete MedDRA synonym or related-term mapping.",
+      "sider_terms": [
+        "Diabetic ketoacidosis"
+      ]
+    },
+    "uti": {
+      "display_name": "Urinary tract infection",
+      "faers_term": "Urinary tract infection",
+      "label_keyword": "urinary tract infection",
+      "mapping_status": "Manually specified single PT, not a full synonym group",
+      "sider_terms": [
+        "Urinary tract infection"
+      ]
+    },
+    "amputation": {
+      "display_name": "Lower limb amputation",
+      "faers_term": "Lower limb amputation",
+      "label_keyword": "amputation",
+      "mapping_status": "Manually specified single PT, not a full synonym group",
+      "sider_terms": [
+        "Lower limb amputation"
+      ]
+    }
+  }
+}
